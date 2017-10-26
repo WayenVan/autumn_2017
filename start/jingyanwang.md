@@ -10,9 +10,9 @@
       $ git config --global user.name  "WayenVan"
 ```
   使用`mkdir`创建一个目录(与Linux bash相同)然后使用如下代码初始化git仓库：
-
+```
       $ git init
-
+```
 ### Git本地操作
 * 添加操作到暂存区与提交操作：
 使用`git add filename`将文件操作提交到暂存区，再使用`git commit -m "name"`操作将文件修改提交到现在分支，例如：
@@ -39,6 +39,7 @@
       $ git checkout -b BranchID //切换分支
       $ git branch //查看分支
       $ git merge // 分支合并
+      $ git clone URL //克隆线上仓库
 ```
 ### Git远程操作
 * 与github建立远程通信（应用ssh协议）：
@@ -66,4 +67,4 @@
 
 ***
 ## Markdown篇
-*markdown 真是一种好用的语言 （强行划水）
+**markdown 真是一种好用的语言 （强行划水）**
